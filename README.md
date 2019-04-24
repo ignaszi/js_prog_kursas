@@ -342,6 +342,6 @@ parasykite komandas:
 ```bash
 git add -u
 git commit -m "final"
-git remote add host https://github.com/<prisijungimo_vardas>/<prisijungimo_vardas>.github.com.git
+git remote add host https://github.com/<prisijungimo_vardas>/<prisijungimo_vardas>.github.io.git
 git push -u host master
 ```
