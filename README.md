@@ -329,3 +329,9 @@ Dokumentacija https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/
 cd Desktop
 git clone https://github.com/ignaszi/js_prog_kursas.git
 ```
+
+Kad issaugiti naudokite:
+```bash
+git add -u
+git commit -m "zinute"
+```
