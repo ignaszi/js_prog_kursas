@@ -335,3 +335,13 @@ Kad issaugiti naudokite:
 git add -u
 git commit -m "zinute"
 ```
+
+Kad įkeltumėte į internetą nueikite į https://github.com . Susikurkite profilį. Spauskite `create repository` ir pasirinkite pavadinimą su pavadinimu `prisijungimo-vardas.github.io`
+
+parasykite komandas:
+```bash
+git add -u
+git commit -m "final"
+git remote add host https://github.com/<prisijungimo_vardas>/<prisijungimo_vardas>.github.com.git
+git push -u host master
+```
