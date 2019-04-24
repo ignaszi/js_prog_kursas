@@ -27,7 +27,6 @@
       .wrapper > div {
         border: 2px solid rgb(233,171,88);
         border-radius: 5px;
-        background-color: rgba(233,171,88,.5);
         color: #d9480f;
         text-align: center;
         font-size: 16vmin;
@@ -35,6 +34,12 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
+      }
+      .basic-background {
+        background-color: rgba(233,171,88,.5);
+      }
+      .win-background {
+        background-color: rgba(88, 91, 233, 0.5);
       }
       .one {
         grid-column: 1;
@@ -80,16 +85,16 @@
   </head>
   <body>
     <div class="wrapper">
-        <div onClick="move(this, 0, 0)" class="one"></div>
-        <div onClick="move(this, 0, 1)" class="two"></div>
-        <div onClick="move(this, 0, 2)" class="three"></div>
-        <div onClick="move(this, 1, 0)" class="four"></div>
-        <div onClick="move(this, 1, 1)" class="five"></div>
-        <div onClick="move(this, 1, 2)" class="six"></div>
-        <div onClick="move(this, 2, 0)" class="seven"></div>
-        <div onClick="move(this, 2, 1)" class="eight"></div>
-        <div onClick="move(this, 2, 2)" class="nine"></div>
-        <div id="turnIndicator" class="ten">X turn</div>
+        <div onClick="move(this, 0, 0)" class="basic-background one"></div>
+        <div onClick="move(this, 0, 1)" class="basic-background two"></div>
+        <div onClick="move(this, 0, 2)" class="basic-background three"></div>
+        <div onClick="move(this, 1, 0)" class="basic-background four"></div>
+        <div onClick="move(this, 1, 1)" class="basic-background five"></div>
+        <div onClick="move(this, 1, 2)" class="basic-background six"></div>
+        <div onClick="move(this, 2, 0)" class="basic-background seven"></div>
+        <div onClick="move(this, 2, 1)" class="basic-background eight"></div>
+        <div onClick="move(this, 2, 2)" class="basic-background nine"></div>
+        <div id="turnIndicator" class="basic-background ten">X turn</div>
     </div>
   </body>
   <script>
